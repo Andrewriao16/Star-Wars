@@ -1,0 +1,70 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@media screen and (min-width: 800px) {
+    .container {
+      margin: .5rem .5rem;
+    }
+  }
+
+i.fas:hover {
+ cursor: pointer;
+ color: blue;
+}
+nav a.active {
+    background-color: rgb(211,211,211, .5);
+    color: white;
+    padding: 1.5rem;
+    transition: all 0.5s e;
+}
+.text-gray-700{
+    background-color: lightgray;
+    color:black;
+}
+
+
+.px-4{
+    background-color: #ffe81f;
+    color: black;
+    transition: all 0.5s ease;
+}
+
+.text-cyan-800 {
+    color: whitesmoke;
+    background-color: transparent;
+
+}
+
+body{
+    background-image: url(https://lumiere-a.akamaihd.net/v1/images/star-wars-backgrounds-14_856985d9.jpeg?download=true);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    font-family: sans-serif;
+    font-weight: bold;
+    
+}
+
+.bg-teal-500 {
+    background-color: transparent;
+    color:black;
+    padding: 1.5rem;
+}
+.bg-gray-100{
+    background-color: lightgray;
+    opacity: 90%;
+}
+.tracking-tight {
+    letter-spacing: -0.025em;
+    color: whitesmoke;
+}
+
+.text-teal-200 {
+    color: lightgray;
+}
+
+.bg-gray-500:hover{
+    color: lightgray;
+
+}
